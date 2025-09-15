@@ -24,7 +24,7 @@ public class Main {
         service.addContract(c2);
 
         // дешевле 35000
-        System.out.println("Квартиры меньше 35000:");
+        System.out.println("Квартиры по цене до 35000:");
         List<Apartment> foundApartments = service.findApartmentsByPrice(35000);
         foundApartments.forEach(System.out::println);
 
